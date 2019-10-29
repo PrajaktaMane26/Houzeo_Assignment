@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/************Header**********/
+header{
+    background-image: linear-gradient(to right,#185a9d,#43cea2);
+    margin-bottom: 10px; 
+}
+nav{
+    height: 60px;   
+}
+nav ul li{
+    padding-top: 12px;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+nav ul li a{
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: #43cea2;
+}
+
+#btn1{
+    background: orangered;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    color: white;
+    padding: 8px;
+    
+}
+    nav a{
+    color: white;   
+}
+nav a:hover{
+    color: #185a9d;
+    text-decoration: none;
+}
+
+/*************Body**************/
+main{
+    background: #f2f2f2;
+}
+h5{
+    font-size: 18pt;
+    background: #cfc7c713;
+    
+}
+
+.info{
+    background: white;
+     
+    position: relative;
+}
+
+#share{
+    background: orangered;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    color: white;
+   position: absolute;
+    right: 150px;
+   top: 0;
+    padding: 8px;
+}
+
+#req{
+    color: white;
+    background: #185a9d;
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 0;
+    right: 20px;
+    padding: 4px; 
+}
+
+.gallery{
+    position: relative;
+    border: 5px solid white;  
+    background: white;
+    padding: 5px;
+    margin-bottom: 30px;
+}
+.gallery img{
+    max-width: 100%;
+}
+.master-img{
+    margin-bottom: 5px; 
+    position: relative;
+}
+#expand{
+    border: none;
+    outline: none;
+    background: transparent;
+    position: absolute;
+     top:0%; 
+     right: 5%;
+}
+.thumbnails{
+    display: flex;
+   overflow: hidden;
+}
+.thumbnails img{
+   cursor: pointer;
+   opacity: 0.5;
+}
+.thumbnails button{
+    border: none;
+    outline: none;
+    background: #185a9d;
+}
+.prev{
+    border-radius: 5px 0 0 5px;
+    margin-right: 5px;
+}
+
+.next{
+    border-radius: 0 5px 5px 0;
+}
+
+.thumbnails i{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding: 14px 8px;
+}
+
+.thumbnails img:not(:last-child){
+    margin-right: 4px;
+}
+.thumbnails img.selected{
+   opacity: 1;
+}
+
+.attributes{
+    background: white;
+    height: 90%;
+}
+
+.enquiry{
+    border: none;
+    outline: none;
+    background: orangered;
+    color: white;
+    padding: 5px 20px;
+    position: absolute;
+    top: 78%;
+    right:0;
+}
+
+.fa-exclamation-circle{
+    font-size: 14px;
+    color: grey;
+}
+.pro{
+    background: white;
+    font-size: 16px;
+    padding: 24px 18px;
+
+}
+.facts{
+    position: relative;
+}
+
+.facts table{
+    padding: 20px;
+    margin-bottom: 40px;
+    background: white;
+    max-width: 100%;
+   
+}
+.facts th{
+    color: #185a9d;
+    font-size: 18px;
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.facts td{
+    text-align: center;
+    color: black;
+    font-size: 14pt;
+    padding-bottom: 20px;
+}
+.facts button{
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 26px;
+   
+}
+ .pre{
+    position: absolute;
+    left: 30px;
+    top: 60px;
+}
+
+.nxt{
+    position: absolute;
+    right: 40px;
+    top: 60px;
+}
+
+.card h6{
+    background: #185a9d;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.text{
+    font-weight: 600;
+}
+
+.bottom{
+    font-weight: 100;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width: 768px){
+    nav{
+        z-index: 1;
+    }
+    nav ul li {
+      background: #185a9d;
+    }
+    .info{
+        font-size: 12px;
+    }
+    #share{
+        right: 110px;
+    }
+    .thumbnails img{
+        width: 69px;
+    }
+}

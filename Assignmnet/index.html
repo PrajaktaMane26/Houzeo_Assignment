@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Property Description</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+       <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-md navbar-dark">
+                    <a class="navbar-brand" href="index.html">
+                        <img class="logo"src="images/logo.png" alt="logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu"  aria-expanded="false">
+	                <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="menu">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Flat fee MLS/For Sale By Owner</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Seller Tools <i class="fa fa-chevron-down"></i></a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="mr-5">
+                    <button id="btn1">Start FREE Listing</button>
+                    <a href="#"><i class="fa fa-lock"></i> LOGIN</a>
+                </div>
+                </nav>
+            </div>
+            
+        </header>
+        
+        <main>
+            <div class="container">
+                <div class="info">
+                <p><span style="font-size: 24px; color: #185b9d;">$317,900</span> | <span style="font-size: 18px;">Hagen Dr, Trinity, FL 34655 1236</span></p>
+                <button id="share"><i class="fa fa-share-alt"></i></button>
+                <button id="req">REQUEST INFO</button>
+            </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-7">
+                        <div class="gallery">
+                        <div class="master-img">
+                            <img class="master" src="images/property.jpg">
+                            <button type="button" id="expand" data-toggle="modal" data-target="#modal-img">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="52" height="52" viewBox="0 0 172 172"
+style=" fill:#000000;"><g transform="translate(25.8,25.8) scale(0.7,0.7)"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M21.5,21.5v43l16.43294,-16.43294l25.7972,25.7972l10.13412,-10.13412l-25.7972,-25.7972l16.43294,-16.43294zM107.5,21.5l16.43294,16.43294l-25.79721,25.7972l10.13412,10.13412l25.7972,-25.7972l16.43294,16.43294v-43zM63.73014,98.13574l-25.7972,25.79721l-16.43294,-16.43294v43h43l-16.43294,-16.43294l25.7972,-25.7972zM108.26986,98.13574l-10.13412,10.13412l25.79721,25.7972l-16.43294,16.43294h43v-43l-16.43294,16.43294z"></path></g></g></g></svg>
+</button>
+                <div class="modal fade" id="modal-img">
+                        <div class="modal-dialog modal-lg" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-content">
+                             <img class="w-100" id="popup-img" src="" alt="master-img">
+          </div></div></div>
+                        </div>
+                        <div class="thumbnails">
+                               <button class="prev"> <i class="fa fa-angle-left"></i></button>
+                                <img class="selected" src="images/property.jpg" width="97px">
+                                <img src="images/property.jpg" width="87px">
+                                <img src="images/property.jpg" width="87px">
+                                <img src="images/property.jpg" width="87px">
+                                <img src="images/property.jpg" width="87px">
+                                <img src="images/property.jpg" width="87px">
+                                <button class="next"> <i class="fa fa-angle-right"></i></button>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-5">
+                        <h5>PROPERTY ATTRIBUTES</h5>
+                        <table class="table attributes">
+                            <tbody>
+                                <tr>
+                                    <td><i class="fa fa-bed"></i></td>
+                                    <td>Bedrooms</td>
+                                    <td align="right">4</td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fa fa-bath"></i></td>
+                                    <td>Bathrooms</td>
+                                    <td align="right">4</td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fa fa-draw-square"></i></td>
+                                    <td>Finished Area</td>
+                                    <td align="right">3,491 sq.ft</td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fa fa-ruler-triangle"></i></td>
+                                    <td>Lot Size</td>
+                                    <td align="right">22,749.00 sq.ft</td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fa fa-tools"></i></td>
+                                    <td>Year Built</td>
+                                    <td align="right">2000</td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fa fa-home"></i></td>
+                                    <td>Home Type</td>
+                                    <td align="right">Single Family</td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fa fa-snowflake-o"></i></td>
+                                    <td>Cooling</td>
+                                    <td align="right">Yes</td>
+                                </tr>
+                                <tr>
+                                    <td><img src="images/sun-solid.svg"></td>
+                                    <td>Heating</td>
+                                    <td align="right">Yes</td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fa fa-car"></i></td>                        
+                                    <td>Parking</td>
+                                    <td align="right">Yes</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <button type="button" class="enquiry"><span style="background: white; color: orangered;  border-radius: 50%; padding: 3px;"><i class="fa fa-envelope-open"></i></span> ENQUIRE NOW  <i class="fa fa-angle-up"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                        <div class="col-sm-12 col-md-6 col-lg-7">
+                            <h5>PROPERTY DESCRIPTION <i class="fa fa-exclamation-circle"></i></h5>
+                            <p class="pro">Privately nestled on over half and acre in the gated community of Spyglass, sits this 3,491 sq.ft 4 bedroom, 4 bathroom pool home. Complete with a living room, dining room, office, large kitchen, and detached bonus room/man-cave/in-law suite, this large home is 100% private and offers lots of room for kids to play and adults to entertain. Additionally it features a solar heated pool, smaal exercise room, 3 car , garage, large lanai area, new appliances, and a nearly new air conditioner 2015</p>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-5"> 
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7239.939181832375!2d-82.6615122449353!3d28.17946670011612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c293f20d2b6899%3A0x44712c6b3f4f0369!2s1236%20Hagen%20Dr%2C%20Trinity%2C%20FL%2034655%2C%20USA!5e0!3m2!1sen!2sin!4v1572195025940!5m2!1sen!2sin" width="425" height="250" frameborder="0" style="border:5px solid white;" allowfullscreen=""></iframe>
+        </div>
+        </div>
+        </div>
+        <div class="container facts">
+            <h5>FACTS</h5>
+            
+            <table rules="cols">
+                <tr>
+                <th>Architectural Style</th>
+                <th>No. of Stories</th>
+                <th>Basement (sq)0</th>
+                <th>HOA fees</th>
+                <th>Heating Fuel</th>
+                </tr>
+                <tr>
+                <td>Bunglow</td>
+                <td>1</td>
+                <td>12345</td>
+                <td>$70.00</td>
+                <td>123</td>
+            </tr>
+            
+            </table>
+            <button class="pre"> <i class="fa fa-angle-left"></i></button>
+            <button class="nxt"> <i class="fa fa-angle-right"></i></button>
+        </div>
+	<div class="container">
+	   <h5>SIMILAR HOMES</h5> 
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="card">
+                         <img src="images/home.jpg" alt="home">
+                         <h6>$ 82.750</h6>
+                         <p class="text">75 Harper Farm Ln, Rocky Mount, NC 27803</p>
+                         <p class="bottom">1539 Sq. Ft | 3 Bed | 2.0 Bath</p>
+                    </div> 
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="card">
+                                <img src="images/home.jpg" alt="home">
+                                <h6>$ 82.750</h6>
+                                <p class="text">75 Harper Farm Ln, Rocky Mount, NC 27803</p>
+                                <p class="bottom">1539 Sq. Ft | 3 Bed | 2.0 Bath</p>
+                           </div>
+		    </div>
+                    
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                            <div class="card">
+                                    <img src="images/home.jpg" alt="home">
+                                    <h6>$ 82.750</h6>
+                                    <p class="text">75 Harper Farm Ln, Rocky Mount, NC 27803</p>
+                                    <p class="bottom">1539 Sq. Ft | 3 Bed | 2.0 Bath</p>
+                               </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                                <div class="card">
+                                        <img src="images/home.jpg" alt="home">
+                                        <h6>$ 82.750</h6>
+                                        <p class="text">75 Harper Farm Ln, Rocky Mount, NC 27803</p>
+                                        <p class="bottom">1539 Sq. Ft | 3 Bed | 2.0 Bath</p>
+                                   </div>
+                </div>
+            </div>
+        </div>
+
+        </main>
+
+
+
+
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>          
+            <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+            <script>
+                $(document).ready(function(){
+                   
+                    $('.thumbnails img').on('click', function(){
+                        $(this).addClass('selected').siblings().removeClass('selected');
+                        $('.master-img img').hide().attr('src', $(this).attr('src')).fadeIn(500);
+                    });
+
+                    $('.next').on('click', function(){
+                        $('.thumbnails .selected').next().click();
+                    });
+
+                    $('.prev').on('click', function(){
+                        $('.thumbnails .selected').prev().click();
+                    });
+
+                    $('#expand').on('click', function(){
+                        var src = $('.master').attr('src');
+                        $('modal').modal('show');
+                        $('#popup-img').attr('src', src);
+                    });
+                   
+                });
+            </script>
+    </body>
+</html>
+
